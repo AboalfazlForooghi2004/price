@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+body{background:#A2ADFF;
+border:inset;
+border-color:#FBC2FF;
+white-space:pre-wrap;
+	}
+	.c2{
+		background-color:#FBC2FF;
+		border:double;
+		border-color:#A2ADFF;
+		}
+
+
+
+</style>
+</head>
+
+<body dir="rtl">
+<center>
+<script type="text/ecmascript">
+function prise()
+{
+var a =Number(document.getElementById("t1").value);
+var b =Number(document.getElementById("t2").value);
+document.getElementById("t3").value=a+b;
+}
+</script>
+محاسبه قیمت محصول<br>
+<br>
+مانیتور:
+<input type="text" name="t1" id="t1"/>
+<br><br>
+پاور بانک:
+<input type="text" name="t2" id="t2"/>
+<br><br>
+قیمت کل:
+<input type="text" name="t3" id="t3"/>
+<br><br>
+<input name="button" type="button" class="c2" id="button" onClick="prise()" value="مبلغ قابل پرداخت"/>
+</body>
+</html>
